@@ -1,0 +1,7 @@
+---
+- name: Test role
+  hosts: localhost
+  gather_facts: true
+  become: true
+  roles:
+    - dtoch56.kvm_provision
